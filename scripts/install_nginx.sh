@@ -2,6 +2,11 @@
 
 set -e
 
+if [ "$EUID" -ne 0 ]; then
+  echo "Ejecuta como root: sudo ./install_nginx.sh"
+  exit 1
+fi
+
 echo "🔄 Actualizando paquetes..."
 sudo apt update
 
