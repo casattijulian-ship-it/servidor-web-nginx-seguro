@@ -128,7 +128,7 @@ servidor-web-nginx-seguro/
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autor Julian Enrique Casatti Llull @julianllull
 
 Proyecto realizado como práctica de ASIX / Ciberseguridad.
 
